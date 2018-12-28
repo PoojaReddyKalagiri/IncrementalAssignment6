@@ -58,10 +58,10 @@ public class Single {
     public static void main(String[] args) {
         SList<String> sl = new SList<String>();
         System.out.println(sl);
-        SListIterator<String> slIter = sl.iterator();
-
+        
         //inserting elements
-
+        
+        SListIterator<String> slIter = sl.iterator();
         System.out.println("inserting: hello");
         slIter.insert("hello");
         System.out.println(sl);
